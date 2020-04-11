@@ -1,7 +1,7 @@
 body {
     background-color: deepskyblue;
     width: initial;
-    height: 600px;
+    height: 550px;
     font-size: medium;
 }
 *{
@@ -30,7 +30,7 @@ header {
 }
 .header {
     float: left;
-    margin-left: 30px;
+    margin-left: 5px;
     border-radius: 20px;
     padding: 20px;
     margin-top:30px;
