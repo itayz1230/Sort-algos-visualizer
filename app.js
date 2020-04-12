@@ -16,8 +16,9 @@ const startBtn = document.getElementById('start')
 const clrBtn = document.getElementById('clearBoard')
 const fillBtn = document.getElementById('fillBoard')
 const delay = ms => new Promise(res => setTimeout(res, ms))
-let sum
-for (let i = 0; i < 1000; i++) {
+let sum = 0
+
+for (let i = 1; i < 1000; i++) {
   sum += i
 }
 console.log(sum)
