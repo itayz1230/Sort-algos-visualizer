@@ -177,6 +177,7 @@ const selectionSort = async () => {
   nums[nums.length - 1].classList.add('sorted')
 }
 
+const insertionSort = async () => {}
 // a function that gets an index and a wanted value and give the element
 //in the { index } place the new value
 function setValue(index, newValue) {
