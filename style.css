@@ -1,74 +1,72 @@
 body {
-    background-color: deepskyblue;
-    width: initial;
-    height: 550px;
-    font-size: medium;
+  background-color: deepskyblue;
+  width: initial;
+  height: 550px;
+  font-size: medium;
 }
-*{
-    font-family: cursive;
+* {
+  font-family: cursive;
 }
 header {
-    width: 100%;
-    height: 20px;
+  width: 100%;
+  height: 20px;
 }
-#speeds{
-    width: 100px;
+#speeds {
+  width: 100px;
 }
 #board {
-    /* margin-left: 20px;
+  /* margin-left: 20px;
     margin-right: 20px; */
-    width: 100%;
-    height: 95%;
-    margin-top: 20px;
-    background-color: dodgerblue;
-    border-radius: 10px;
-    float: left;
-    border-collapse: collapse; 
-    vertical-align: bottom;
+  width: 100%;
+  height: 95%;
+  margin-top: 20px;
+  background-color: dodgerblue;
+  border-radius: 10px;
+  float: left;
+  border-collapse: collapse;
+  vertical-align: bottom;
 
-    /* position: relative; */
+  /* position: relative; */
 }
 .header {
-    float: left;
-    margin-left: 5px;
-    border-radius: 20px;
-    padding: 20px;
-    margin-top:30px;
-    /* width: 200px;
+  float: left;
+  margin-left: 5px;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 30px;
+  /* width: 200px;
     height: 150px; */
-    background-color: blueviolet;
-    font-size: medium;
+  background-color: blueviolet;
+  font-size: medium;
 }
-#mainTitle{
-    margin-top: 20px;
+#mainTitle {
+  margin-top: 20px;
 }
 .column {
-    vertical-align: baseline;
-    /* border-width: 0.3px; */
-    /* border-color: black;
+  vertical-align: baseline;
+  /* border-width: 0.3px; */
+  /* border-color: black;
     border-style: solid; */
-    text-align: center;
-    writing-mode: vertical-lr;
-    float: left;
-    
-    vertical-align: bottom;
-    background-color: red;
-    
-    
+  text-align: center;
+  writing-mode: vertical-lr;
+  float: left;
+
+  vertical-align: bottom;
+  background-color: red;
 }
-#info{
-    float:right;
-    margin-right: 20px;
-    margin-left: 5px;
-    text-align: center;
+#info {
+  float: right;
+  margin-right: 20px;
+  margin-left: 5px;
+  text-align: center;
 }
 
-.selected{
-    background-color: yellow;
+.selected {
+  background-color: yellow;
 }
-.min{
-    background-color: green;
+.min {
+  background-color: green;
 }
-.sorted{
-    background-color: blueviolet;
+.sorted {
+  background-color: blueviolet;
 }
