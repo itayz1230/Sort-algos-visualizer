@@ -20,8 +20,7 @@ let sum
 for (let i = 0; i < 1000; i++) {
   sum += i
 }
-console.log(i)
-
+console.log(sum)
 
 // a function that returns an array [the index of the element, the value of the element]
 function getIndexAndValue(el) {
