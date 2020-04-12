@@ -58,7 +58,6 @@ const setBoard = () => {
         board.appendChild(element)
         // the array that contains all the elements (divs)
         nums.push(element)
-        element.style.display = 'block'
       }, i * speed)
     }
     setTimeout(() => {
